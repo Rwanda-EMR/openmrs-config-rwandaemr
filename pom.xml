@@ -19,6 +19,25 @@
     <name>Rwanda Biomedical Centre</name>
     <url>https://rbc.gov.rw</url>
   </organization>
+  
+      <scm>
+        <developerConnection>scm:git:https://github.com/Rwanda-EMR/openmrs-config-rwandaemr</developerConnection>
+        <url>https://github.com/Rwanda-EMR/openmrs-config-rwandaemr</url>
+        <tag>HEAD</tag>
+    </scm>
+
+	<distributionManagement>
+		<repository>
+			<id>openmrs-repo-modules-rwandaemr</id>
+			<name>rwandaemr-artifactory-primary-0-releases</name>
+			<url>https://rwandaemr.jfrog.io/artifactory/libs-release</url>
+		</repository>
+		<snapshotRepository>
+			<id>openmrs-repo-modules-rwandaemr-snapshots</id>
+			<name>rwandaemr-artifactory-primary-0-snapshots</name>
+			<url>https://rwandaemr.jfrog.io/artifactory/libs-snapshot</url>
+		</snapshotRepository>
+	</distributionManagement>
 
   <build>
     <plugins>
