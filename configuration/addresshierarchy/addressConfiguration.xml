@@ -8,43 +8,43 @@
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>
     <addressComponent>
-      <field>ADDRESS_1</field>
+      <field>STATE_PROVINCE</field>
       <nameMapping>Province</nameMapping>
       <sizeMapping>40</sizeMapping>
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>
     <addressComponent>
-      <field>ADDRESS_2</field>
-      <nameMapping>District</nameMapping>
+      <field>COUNTY_DISTRICT</field>
+      <nameMapping>Disctrict</nameMapping>
       <sizeMapping>40</sizeMapping>
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>
     <addressComponent>
-      <field>ADDRESS_3</field>
+      <field>CITY_VILLAGE</field>
       <nameMapping>Sector</nameMapping>
       <sizeMapping>40</sizeMapping>
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>
     <addressComponent>
-      <field>ADDRESS_4</field>
+      <field>ADDRESS_3</field>
       <nameMapping>Cell</nameMapping>
       <sizeMapping>40</sizeMapping>
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>
     <addressComponent>
-      <field>ADDRESS_5</field>
+      <field>ADDRESS_1</field>
       <nameMapping>Umudugudu</nameMapping>
       <sizeMapping>40</sizeMapping>
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>
   </addressComponents>
   <lineByLineFormat>
-    <string>address5</string>
-    <string>address4</string>
-    <string>address3</string>
-    <string>address2</string>
-    <string>address1</string>
-    <string>country</string>
+      <string>country</string>
+      <string>stateProvince</string>
+      <string>countyDistrict</string>
+      <string>cityVillage</string>
+      <string>address3</string>
+      <string>address1</string>
   </lineByLineFormat>
   <addressHierarchyFile>
     <filename>addresshierarchy.csv</filename>
